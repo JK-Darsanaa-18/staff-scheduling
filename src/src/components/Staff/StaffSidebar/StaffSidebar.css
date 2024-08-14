@@ -1,0 +1,50 @@
+/* StaffSidebar.css */
+
+.staff-sidebar-container {
+    position: fixed;
+    top: 15px;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    transition: transform 0.3s ease;
+    z-index: 100;
+  }
+  
+  .staff-sidebar-container.closed {
+    transform: translateX(-100%);
+  }
+  
+  .staff-sidebar-container.open {
+    transform: translateX(0);
+  }
+  
+  .staff-sidebar {
+    background-color:rgb(24, 72, 144);
+
+    /* background-color: #333; */
+    height: 100%;
+    padding: 1rem;
+  }
+  
+  .staff-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .staff-sidebar ul li {
+    margin: 1rem 0;
+  }
+  
+  .staff-sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .staff-close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  

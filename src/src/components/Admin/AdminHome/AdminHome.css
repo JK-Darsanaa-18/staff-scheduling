@@ -1,0 +1,77 @@
+.admin-home {
+  display: flex;
+}
+
+.admin-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right .icon {
+  margin-left: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+.admin-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1; /* This makes sure the content takes up the remaining space */
+  text-align: center;
+  padding: 80px; 
+  background-image: url('https://media.licdn.com/dms/image/D5612AQFhT62WhluPhQ/article-cover_image-shrink_600_2000/0/1708919204198?e=2147483647&v=beta&t=py1PN9jkwW8ADRxetBU4iQ978_TmQevgn-9NF56OMMg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center; /* Center the background image */
+  min-height: 100vh; /* Ensure the content takes up the full viewport height */
+  width: 100%; /* Make sure it covers the full width */
+}
+
+.admin-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.admin-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+
+.features {
+  text-align: left;
+  max-width: 800px;
+}
+
+.admin-sidebar {
+  width: 250px;
+  background-color: #1d2226;
+  color: #ecf0f1;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  transition: left 0.3s ease;
+  overflow: auto;
+}
+.admin-sidebar.visible {
+  left: 0;
+}
+.admin-sidebar.hidden {
+  left: -250px;
+}

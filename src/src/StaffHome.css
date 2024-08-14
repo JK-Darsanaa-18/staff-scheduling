@@ -1,0 +1,54 @@
+.staff-home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.staff-home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:rgb(24, 72, 144);
+  color: white;
+}
+
+.header-left .menu-icon,
+.header-right .notification-icon,
+.header-right .mail-icon,
+.header-right .profile-icon {
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.staff-home-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 40px 20px;
+  background-image: url('https://365datascience.com/resources/blog/ixkv8mfycd-trend-analysis.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.staff-home-content h1 {
+  font-size: 36px;
+  color: #171414;
+  margin-bottom: 20px;
+}
+
+.staff-home-content p {
+  font-size: 18px;
+  color: #121313;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.staff-home-content p:last-child {
+  margin-bottom: 0;
+}

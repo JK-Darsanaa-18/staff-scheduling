@@ -1,0 +1,106 @@
+.shift-calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #dbe0e7;
+  min-height: 100vh;
+}
+
+.containnv {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shift-calendar-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.calendar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  height: 70vh;
+}
+
+.rbc-calendar {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.rbc-toolbar {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.rbc-toolbar button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+.rbc-toolbar button:hover {
+  background-color: #0056b3;
+}
+
+.rbc-month-view,
+.rbc-time-view {
+  background-color: #fff;
+}
+
+.rbc-day-bg,
+.rbc-time-slot {
+  border-color: #ddd;
+}
+
+.rbc-date-cell,
+.rbc-time-header-cell {
+  color: #333;
+}
+
+/* Custom colors for different shifts */
+.morning-shift {
+  background-color: #FFA726 !important; /* Orange */
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.afternoon-shift {
+  background-color: #66BB6A !important; /* Green */
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.night-shift {
+  background-color: #42A5F5 !important; /* Blue */
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.rbc-today {
+  background-color: #eaf6ff;
+}
+
+.rbc-off-range-bg {
+  background-color: #f7f7f7;
+}
